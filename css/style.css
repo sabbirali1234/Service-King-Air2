@@ -1,0 +1,331 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+}
+
+/* common */
+
+.container{
+    max-width: 1140px;
+    padding: 0px 20px;
+    width: 1100px;
+    margin: auto;
+}
+
+.cmn-btn{
+    padding: 20px 24px;
+    border-radius: 5px;
+    background-color: #009245;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.cmn-span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #244886;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cmn-head{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.cmn-pera{
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #747474;
+}
+
+
+/* navbar */
+
+.navbar{
+    padding: 15px 0px;
+}
+
+.navbar-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-child-div ul li{
+list-style: none;
+display: inline-block;
+padding: 15px;
+}
+
+.navbar-child-div ul li a{
+text-decoration: none;
+/* color: #747474; */
+}
+
+/* banner sec */
+
+.banner-sec{
+    background-image:url(../image/banner.svg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.banner-main-div h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    max-width: 700px;
+    color: #FFFFFF;
+}
+
+.banner-main-div p{
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    max-width: 473px;
+    max-height: 34px;
+    padding:0px 0px 50px 0px;
+}
+
+/* image sec */
+
+.image{
+    width: 100%;
+    background-color: #F7FAFF;
+}
+
+.image-main-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 0px;
+}
+
+/* commercile */
+
+.commercile{
+    padding: 60px 0px;
+}
+
+.commercile-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commercile-child-div h2{
+
+    max-width: 488px;
+}
+
+.commercile-child-div p{
+    max-width: 513px;
+    padding: 35px 0px;
+}
+
+/* Services we offer */
+
+.Services{
+    padding: 60px 0px;
+    background-color: #EAEFF5;
+}
+
+.services-top-div{
+    text-align: center;
+}
+.services-main-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0px 55px 0px;
+}
+.services-child-div{
+    background-color:#FFFFFF;
+    width: 360px;
+    border-radius: 10px;
+    
+}
+
+.services-child-div img{
+    width: 333px;
+    height: 227px;
+    padding: 15px 15px;
+    
+}
+
+.services-child-div h3{
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #222222;
+    padding: 0px 15px;
+}
+
+.services-child-div p{
+    padding: 15px 15px;
+}
+
+.services-buttem-div{
+    text-align: center;
+}
+
+/* Service King AIR */
+
+.service-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-child-div{
+    padding: 90px 0px;
+ 
+}
+.service-child-div h2{
+    width: 460px;
+}
+
+.service-child-div p{
+    width: 560px;
+}
+
+/* ??????????? */
+
+.service-inner-child{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+.service-inner-child ul{
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3E3E3E;
+
+}
+
+.service-inner-child1 ul li img{
+    width: 15px;
+    height: 15px;
+    padding-right:10px ;
+}
+
+/*  our clients say */
+
+.our-clients{
+    padding: 60px 0px;
+    background-color: #F7FAFF;
+}
+
+.clients-main-div{
+    text-align: center;
+}
+
+.clients-main-div p{
+    padding:78px 220px 30px 220px;
+}
+
+.clients-main-div h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #222222;
+}
+
+
+.form-main-div{
+width: 474px;
+height: 500px;
+padding: 32px 32px;
+background-color: #FFFFFF;
+position: absolute;
+margin-left: 665px;
+margin-top: 65px;
+border-radius: 10px;
+
+}
+input{
+    width: 407px;
+   padding:21px 21px ;
+   background-color: #F9F9F9;
+ margin: 0px 0px 15px 0px;
+ border: none;
+ border-radius: 5px;
+   
+}
+
+.form-main-div h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #244886;
+}
+.btn{
+    border: none;
+    margin: 40px;
+}
+
+
+/* footer sec */
+
+.footer{
+    padding: 70px 0px;
+    background-image:url(../image/footer.svg) ;
+}
+
+.footer-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-child-div ul{
+    list-style: none;
+}
+
+.footer-child-div ul li a{
+text-decoration: none;
+color: #B7B7B7;
+}
+
+.footer-child-div p{
+    list-style: none;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 38px;
+    margin-bottom: 15px;
+}
+
+
+    .fa-facebook-f{
+        border: 1px solid red;
+        color: aqua;
+        font-size: 45px;
+       }
+
+.fa-phone-slash{
+    border: 1px solid;
+    color: #009245; 
+    background-color: #EAEFF5;   
+}
